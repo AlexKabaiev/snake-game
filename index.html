@@ -11,7 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -29,8 +28,37 @@
           </li>
         </ul>
       </div>
-      <div class="game-container"></div>
-      <div class="instructions-container"></div>
+
+      <div class="game-container">
+        <h1 class="game-title">Гра “Змійка”</h1>
+        <div class="game-area">
+          <canvas class="game-canvas" width="400px" height="400px"></canvas>
+        </div>
+        <div class="game-score">Очки: 0</div>
+        <div class="game-controls">
+          <button class="game-start">Старт</button>
+          <button class="game-reset">Перезапуск</button>
+        </div>
+      </div>
+
+      <div class="instructions-container">
+        <h3 class="instructions-title">Інструкції до гри</h3>
+        <ul class="instructions-list">
+          <li class="instructions-list-item">
+            Використовуйте стрілки на клавіатурі (вліво, вправо, вгору, вниз)
+            для керування рухом змійки. Натискайте стрілку в потрібному
+            напрямку, щоб змінити напрямок руху змійки.
+          </li>
+          <li class="instructions-list-item">
+            Мета гри - збирати їжу, яка з'являється на полі гри. Коли голова
+            змійки зіткнеться з їжею, змійка зростатиме у довжину.
+          </li>
+          <li class="instructions-list-item">
+            Уважно плануйте свої рухи, оскільки гра закінчується, якщо змійка
+            зіткнеться зі стіною або своїм власним тілом.
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

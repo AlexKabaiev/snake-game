@@ -1,34 +1,137 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background: #eff5ff;
 }
 
 .about-me-container {
-    width: 274px;
-    margin-left: 95px;
+  width: 274px;
 }
 
 .logo {
-    margin-bottom: 60px;
-    padding-top: 40px;
+  margin-bottom: 60px;
 }
 
 .my-name {
-    color: #262630;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-top: 20px;
-    margin-bottom: 32px;
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 32px;
 }
 
 .about-me-list {
-    padding-left: 14px;
+  padding-left: 14px;
 }
 
 .about-me-list-item {
-    color: #262630;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 16px;
+  color: #262630;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.game-title {
+  color: #262630;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.main-container {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 44px;
+  box-sizing: border-box;
+}
+
+.game-container {
+  width: 440px;
+}
+
+.instructions-container {
+  width: 274px;
+}
+
+.game-area {
+  width: 440px;
+  height: 440px;
+  background: #d5e3ff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.game-canvas {
+  border: 1px solid #9eadf2;
+  background: #fff;
+}
+
+.game-score {
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.game-controls {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+
+.game-start {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #ff6b0a;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+}
+
+.game-reset {
+  color: #ff6b0a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #ff6b0a;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #eff5ff;
+}
+
+.instructions-title {
+  color: #262630;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 32px;
+  padding-top: 72px;
+}
+
+.instructions-list {
+  padding-left: 24px;
+}
+
+.instructions-list-item {
+  color: #262630;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
